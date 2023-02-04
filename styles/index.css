@@ -229,7 +229,56 @@ a{
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
+}
 
+.four{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+}
+
+.four .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #88a1ac;
+    width: 70%;
+    padding: 27px;
+    border-radius: 15px;
+}
+
+.information p:first-child{
+    margin: 0;
+    font-size: 20px;
+    color: #f3ece8;
+}
+
+.information p:last-child{
+    margin: 0;
+    font-size: 18px;
+    color: #eff3e8;
+}
+
+.four .container .sign-up{
+    width: 90px;
+    height: 40px;
+    /* height: 30px; */
+    box-shadow: 1px 1px 1px 1px #9ea6d5;
+    padding: 7px;
+    background-color: #dec5e4;
+    border: none;
+    border-color: #dec5e4;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.four .container .sign-up:active{
+    box-shadow: 0px 0px 0px 0px;
+    translate: 3px 3px;
 }
 
 
